@@ -18,10 +18,10 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Cinematography',
-    description: "This is where we will capture the moment that you want.",
+    title: 'Digital Marketing',
+    description: "This is where we will help to grow your business.",
       image: '/images/3.jpeg',
-      tags: ['Photography', 'Cinematography'],
+      tags: ['Digital assets', 'social media'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,

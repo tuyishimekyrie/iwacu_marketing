@@ -33,7 +33,7 @@ export const Div2 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
-`;
+  `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
@@ -58,6 +58,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 1.2rem;
   }
 `;
 
