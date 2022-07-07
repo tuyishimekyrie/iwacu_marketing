@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image"
 import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
-import { DiSenchatouch } from "react-icons/di";
 
 import {
   Container,
@@ -21,7 +21,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiSenchatouch size="3rem" /> <span>Iwacu Marketing</span>
+          <Image src='/images/logo.png' width="50px" height="45px" style={{bordeRadius: "50%"}}/><span>Iwacu Marketing</span>
         </a>
       </Link>
     </Div1>
