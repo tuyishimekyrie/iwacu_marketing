@@ -14,7 +14,7 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          Iwacu marketing.
+          Iwacu Marketing.
         </SectionTitle>
         <SectionText>
         One of the first steps for developing an effective business success is implementing the right marketing strategies.
